@@ -1,0 +1,116 @@
+/*задний фон страницы*/
+body
+{
+  background-image: url(../img/fon2.jpg);
+}
+/*свойства заголовков*/
+h1 
+{
+  font-family: 'Andada Pro', serif;
+  color: #FAFAD2;
+  text-align: center;
+  text-shadow: #8B4513 1px 1px 0, #8B4513 -1px -1px 0, 
+                #8B4513 -1px 1px 0, #8B4513 1px -1px 0; 
+}
+
+div.stix1 
+{
+  background-image: url(../img/fon1.jpg);
+  width: 80% auto;
+  height: 600px;
+  margin: 15px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  padding: 50px;
+}
+/*свойства контейнера со вторым стихотворением
+отвечает за фон*/
+div.stix2 
+{
+  background-image: url(../img/fon.jpeg);
+  width: 80% auto;
+  height: 600px;
+  margin: 15px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  padding: 50px;
+}
+div.stix3
+{
+  background-image: url(../img/fon3.jpg);
+  width: 80% auto;
+  height: 600px;
+  margin: 15px; 
+  margin-left: 100px;
+  margin-right: 100px; 
+  padding: 50px;
+}
+/*свойства контейнера, содержащего текст стихотворения и картинку*/
+div.b 
+{
+  width: 70% auto;
+  background:white ; 
+  padding:30px ; 
+  margin: 50px;
+}
+hr
+{
+  color: #DC143C;
+  background-color:#FFD700;
+  height: 2px;
+}
+p 
+{
+  font-family: 'Andada Pro', serif;
+  color: #B8860B;
+}
+p.it
+{
+  font-style: italic ;
+  text-align: right;
+}
+img.stix1
+{
+  height:300px;
+  padding: 25px;
+  float: right;
+}
+img.stix1:hover
+{
+  transform: rotate(45deg);
+  transition:  1s linear;
+}
+img.stix2
+{
+  height:300px;
+  padding: 25px;
+  float: left;
+}
+img.stix2:hover
+{
+  transform: skew(10deg, 10deg);
+  transition:  1s linear;
+}
+img.stix3
+{
+  height:300px;
+  padding: 25px;
+  float: left;
+}
+img.stix3:hover
+{
+  transform: scale(0.9, 1.1);
+  transition:  1s linear;
+}
+div.home 
+{
+  width: 250px;
+  height:30px;
+  background:white ; 
+  padding:5px ; 
+  margin-right: 40%;
+  margin-left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
