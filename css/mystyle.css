@@ -1,0 +1,48 @@
+body
+{
+  background-image: url(../img/fon2.jpg);
+}
+
+h1 
+{
+  font-family: 'Andada Pro', serif;
+  color: #FAFAD2;
+  text-align: center;
+  text-shadow: #8B4513 1px 1px 0, #8B4513 -1px -1px 0, 
+                #8B4513 -1px 1px 0, #8B4513 1px -1px 0; 
+}
+div.block_avtor
+{
+  width: 80% auto;
+  height: 350px;  
+  background-color: #FAFAD2 ;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20;
+  display: flex;
+  justify-content: space-between;
+  border: double 3px #CD853F;
+}
+div.block_avtor:hover
+{  
+  background-color: #F4A460 ;
+  box-shadow: 10px 10px 5px #CD853F;
+  transition:  1s linear;
+}
+
+div.avtor
+{
+  width:33%;
+  float:left;
+  text-align: center;
+  color:#6B8E23 ;
+  font-weight: ;
+}
+
+img.v
+{
+  height:250px;
+  padding: 10px; 
+  padding-top: 20px;
+    
+}
